@@ -1,4 +1,20 @@
-body{
+body {
+    font-family: 'Lora', serif;
     text-align: center;
-    background-image: linear-gradient(red,orange,yellow);
+    background-image: linear-gradient(red, orange, yellow);
+}
+
+.futter {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#camera {
+    box-shadow: 10px 10px 10px black; 
+    width: 360px;
+    height: 360px;
+    border-radius: 10px;
+border: 2px solid grey;
 }

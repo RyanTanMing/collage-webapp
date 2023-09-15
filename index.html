@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" type="text/javascript"></script>
 <link rel="stylesheet" href="style.css">
 </head>
@@ -15,11 +15,19 @@
 <h1>Collage Webapp</h1>
 <center>
     <h3>Say selfie to take your selfie</h3>
-    <button class="btn btn-primary btn-lg">Start</button>
+    <button class="btn btn-primary btn-lg" onclick="start()">Start</button>
+    <br>
+    <textarea name="" id="textbox" cols="20" rows="2"></textarea>
     <br>
     <label for="">Press the start button</label>
     <h2>Your webcam</h2>
+    <div id="camera"></div>
+    <h2>Your Selfies</h2>
+    <span id="result1"></span>
+    <span id="result2"></span>
+    <span id="result3"></span>
 </center>
+<div class="futter">Developed By:Ryan</div>
 </body>
-
+<script src="main.js"></script>
 </html>
